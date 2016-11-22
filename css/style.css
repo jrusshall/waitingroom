@@ -1,15 +1,16 @@
 body {
     overflow-x: hidden;
-    background-image: url("/img/background.png");
+    background: url("/img/background.png") black;
+    /*background-image: url("/img/background.png");*/
     background-attachment: fixed;
     background-size: cover;
  }
 
 /* Toggle Styles */
 #menu-toggle {
-    background: #080808;
-    color: #EAEAEA;
-    border-color: #EAEAEA;
+    background: none;
+    color: #DBDBDB;
+    border-color: #DBDBDB;
 }
 #wrapper {
     padding-left: 0;
@@ -29,7 +30,7 @@ body {
     left: 250px;
     width: 0;
     height: 100%;
-    margin-top: 18px;
+    margin-top: 70px;
     margin-left: -250px;
     overflow-y: auto;
     /*background: #000;*/
@@ -67,13 +68,13 @@ body {
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #A6A6A6;
+    color: #6F6F6F;
 }
 
 .sidebar-nav li a:hover {
@@ -89,12 +90,13 @@ body {
 
 .sidebar-nav > .sidebar-brand {
     height: 65px;
-    font-size: 18px;
+    font-size: 32px;
     line-height: 60px;
+    margin-bottom: 35px;
 }
 
 .sidebar-nav > .sidebar-brand p {
-    color: #A6A6A6;
+    color: #6F6F6F;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -106,7 +108,7 @@ body {
 	  padding-top: 35px;
 }
 .img-spacer-2 {
-	  padding-bottom: 60px;
+	  padding-bottom: 70px;
 }
 
 @media(min-width:768px) {
