@@ -7,7 +7,7 @@ body {
 
 /* Toggle Styles */
 #menu-toggle {
-    background: #0A0A0A;
+    background: #080808;
     color: #EAEAEA;
     border-color: #EAEAEA;
 }
@@ -29,7 +29,7 @@ body {
     left: 250px;
     width: 0;
     height: 100%;
-    margin-top: 65px;
+    margin-top: 18px;
     margin-left: -250px;
     overflow-y: auto;
     /*background: #000;*/
@@ -67,7 +67,7 @@ body {
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .sidebar-nav li a {
@@ -103,7 +103,10 @@ body {
 }
 
 .img-spacer {
-	padding-top: 35px;
+	  padding-top: 35px;
+}
+.img-spacer-2 {
+	  padding-bottom: 60px;
 }
 
 @media(min-width:768px) {
